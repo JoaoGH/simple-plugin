@@ -37,6 +37,7 @@ dependencies {
     testImplementation "io.micronaut:micronaut-inject-groovy"
     testImplementation "org.grails:grails-gorm-testing-support"
     testImplementation "org.mockito:mockito-core"
+    testImplementation "org.springframework.boot:spring-boot-starter-tomcat"
 }
 
 bootRun {
